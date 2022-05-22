@@ -1,0 +1,1 @@
+from handler.client import register_handlers
