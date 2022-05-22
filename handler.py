@@ -24,4 +24,3 @@ async def date(message: types.Message):
 def register_handlers(dp: Dispatcher):
     dp.register_message_handler(send_welcome, commands=["start"])
     dp.register_message_handler(rm_kb, Text(equals="Remove keyboard", ignore_case=True))
-    dp.register_message_handler(date)
